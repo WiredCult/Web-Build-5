@@ -171,7 +171,7 @@ a:hover {
     "main main";
     
     #s-main{
-    background-image: url("/images/paper.jpg");
+    background-image: url("./images/paper.jpg");
     background-repeat: stretch;
     background-size: 1200px;
     }
