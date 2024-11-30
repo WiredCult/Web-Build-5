@@ -227,6 +227,14 @@ a:hover {
     a:hover{
         opacity: 0.9;
     }
+
+    .WebApp-container div{
+    padding: 15px 15px 15px 15px;
+    grid-area: main;
+    border: 5px solid purple;
+    border-radius: 5px;
+    background-color: rgb(255, 226, 192);
+    }
 }
 
 /* misc samples styling ------------------------------------------------------------------------------------------------------------------------ */
@@ -238,10 +246,18 @@ a:hover {
     row-gap: 20px;
     background-image: linear-gradient(pink, rebeccapurple);
 
-    .sample-container{
+    .sample-container:not(:first-child){
         width: 500px;
         flex-grow: 1;
     }
+
+    .sample-container div{
+        padding: 15px 15px 15px 15px;
+        grid-area: main;
+        border: 5px solid purple;
+        border-radius: 5px;
+        background-color: rgb(255, 226, 192);
+        }
 
     img{
         border: 5px solid purple;
