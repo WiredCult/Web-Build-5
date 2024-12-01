@@ -295,16 +295,20 @@ a:hover {
 
 
 /* media query ------------------------------------------------------------------------------------------------------------------------ */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 725px) {
     #p-home,
     #p-resume,
     #p-samples,
     #p-miscsamples {
-        margin-left: 0rem;
-        margin-right: 0rem;
-        width: 80%;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
         margin: auto;
     }    
+
+    .g-base{
+        margin: auto;
+    }
     
     .g-header{
         display: flex;
