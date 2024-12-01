@@ -358,6 +358,11 @@ a:hover {
     text-align: center;
 }
 
+#p-home #info{
+    width: 40%;
+    margin-bottom: 40px;
+}
+
 #p-samples .innercontent{
     
     h2 {
