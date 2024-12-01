@@ -6,8 +6,8 @@
     background-image: linear-gradient(pink, rgb(255, 219, 153), lightblue);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-top: 0%;
     font-size: 1.2rem;
-    margin: 0px;
     font-family: parkinsans;
 }
 
@@ -47,14 +47,14 @@ a:hover {
         background-color: #A7C2CC;
         border-radius: 20px;
         text-align: center;
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 0px 10px 0px 0px;
     }
 
     .hflex2{
         background-color: rgb(252, 113, 227);
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        width: 10rem;
+        width: 10%;
         align-content: center;
         text-align: center;
     }
@@ -63,7 +63,7 @@ a:hover {
         background-color: hotpink;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        width: 10rem;
+        width: 10%;
         align-content: center;
         text-align: center;
     }
@@ -72,7 +72,7 @@ a:hover {
         background-color: plum;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        width: 10rem;
+        width: 10%;
         align-content: center;
         text-align: center;
     }
@@ -104,7 +104,7 @@ a:hover {
     .fflexsocial{
         border: 5px solid purple;
         border-radius: 5px;
-        width: 10rem;
+        width: 10%;
         text-align: center;
         background-color: rgb(255, 226, 192);
     }
@@ -131,8 +131,7 @@ a:hover {
 #p-miscsamples {
     background-color: rebeccapurple;
     margin: auto;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: 90%;
     display: grid;
     column-gap: 20px;
     grid-template-areas: 
@@ -244,7 +243,7 @@ a:hover {
     background-image: linear-gradient(pink, rebeccapurple);
 
     .sample-container:not(:first-child){
-        width: 500px;
+        width: 100%;
         flex-grow: 1;
     }
 
@@ -306,39 +305,35 @@ a:hover {
         margin: auto;
     }    
 
-    .g-base{
-        margin: auto;
-    }
-    
     .g-header{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
-        row-gap: 2rem;
-        padding-bottom: 2rem;
+        row-gap: 5%;
+        padding-bottom: 50px;
         
         .hflex1{
-            font-size: 2rem;
-            border-radius: 1rem;
+            font-size: 1.5rem;
+            border-radius: 5px;
         }
     
         .hflex2{
-            font-size: 2rem;
-            width: 25rem;
-            border-radius: 2rem;
+            font-size: 1.5rem;
+            width: 25%;
+            border-radius: 5px;
         }
     
         .hflex3{
-            font-size: 2rem;
-            width: 25rem;
-            border-radius: 2rem;
+            font-size: 1.5rem;
+            width: 25%;
+            border-radius: 5px;
         }
     
         .hflex4{
-            font-size: 2rem;
-            width: 25rem;
-            border-radius: 2rem;
+            font-size: 1.5rem;
+            width: 25%;
+            border-radius: 5px;
 
         }
     }
@@ -347,11 +342,11 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    row-gap: 2rem;
-    column-gap: 2rem;
+    row-gap: 20%;
+    column-gap: 20%;
     font-size: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #p-home #info,
@@ -375,13 +370,13 @@ a:hover {
     }
 }
 .WebApp-container{
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .g-footer {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 2rem;
+    row-gap: 20%;
     flex-direction: column;
     align-items: stretch;
     align-content: center;
@@ -391,6 +386,7 @@ a:hover {
     
     .fflexhead{
         width: 50%;
+        flex-grow: 2;
     }
 
     .fflexsocial{
