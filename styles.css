@@ -21,7 +21,7 @@ a:hover {
     text-decoration: none;
 }
 
-.innercontent {
+.g-innercontent {
     background-color: rebeccapurple;
     padding: 50px 15px 50px 15px;
     display: flex;
@@ -115,9 +115,7 @@ a:hover {
 
 /* multi-page styling------------------------------------------------------------------------------------------------------------------------*/
 #p-home #s-main,
-#p-resume #s-main,
-#p-samples #s-main,
-#p-miscsamples #s-main{
+#p-resume #s-main{
     padding: 15px 15px 15px 15px;
     grid-area: main;
     border: 5px solid purple;
@@ -163,7 +161,7 @@ a:hover {
     }
 }
 /* resume styling ------------------------------------------------------------------------------------------------------------------------ */
-#p-resume .innercontent {
+#p-resume .g-innercontent {
     grid-template-areas:
     "main main";
     
@@ -175,7 +173,7 @@ a:hover {
 
 }
 /* webapp samples styling ------------------------------------------------------------------------------------------------------------------------ */
-#p-samples .innercontent {
+#p-samples .g-innercontent {
     background-color: rebeccapurple;
     padding: 50px 15px 50px 15px;
     display: flex;
@@ -234,7 +232,7 @@ a:hover {
 }
 
 /* misc samples styling ------------------------------------------------------------------------------------------------------------------------ */
-#p-miscsamples .innercontent {
+#p-miscsamples .g-innercontent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -339,7 +337,7 @@ a:hover {
 
 }
 
-.innercontent{
+.g-innercontent{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -363,7 +361,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
-#p-samples .innercontent{
+#p-samples .g-innercontent{
     
     h2 {
         margin-left: auto;
@@ -400,8 +398,9 @@ a:hover {
         margin-bottom: 10px;
     }
 }
-#p-miscsamples .innercontent {
+#p-miscsamples .g-innercontent {
     .sample-container:not(:first-child){
         width: unset;
     }
+}
 }
